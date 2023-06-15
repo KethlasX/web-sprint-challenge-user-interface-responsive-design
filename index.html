@@ -4,64 +4,70 @@
 
 <head>
 	<meta charset="utf-8">
-
-	<title>Sprint Challenge - Home</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bloomtech Bar and Grill</title>
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<div>
+	<div class="whole-thing">
 		<!-- header -->
 		<header>
 			<div>
-				BLOOMTECH BAR AND GRILL
+				<!-- nav bar -->
+				<div class="navfloat">
+					<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+					<nav>
+						<div>
+							<a href="menu.html">Menu</a>
+							<a href="reservations.html">Reservations</a>
+							<a href="offers.html">Special Offers</a>
+							<a href="contact.html">Contact</a>
+						</div>
 
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+
+						<div class="socials">
+							<a href="https://facebook.com/"><i class="fa-brands fa-facebook"
+									style="color: #ffffff;"></i></a>
+							<a href="https://twitter.com/"><i class="fa-brands fa-twitter"
+									style="color: #ffffff;"></i></a>
+							<a href="https://instagram.com/"><i class="fa-brands fa-instagram"
+									style="color: #ffffff;"></i></a>
+						</div>
+					</nav>
+				</div>
 			</div>
 		</header>
 
-		<!-- gallery section -->
+		<!-- gallery -->
 		<section class="gallery">
 			<div>
 				<h2>OUR FOOD</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<div class="gal-img">
+					<img src="img/food-avocadotoast.jpg" alt="">
+					<img src="img/food-burger.jpg" alt="">
+					<img src="img/food-poutine.jpg" alt="">
+					<img src="img/food-ribs.jpg" alt="">
+					<img src="img/food-sandwich.jpg" alt="">
+					<img src="img/food-sausage.jpg" alt="">
+					<img src="img/food-steak.jpg" alt="">
+					<img src="img/food-tacos.jpg" alt="">
+					<img src="img/food-wings.jpg" alt="">
+				</div>
 			</div>
 		</section>
 
 		<!-- spacer -->
 		<div class="spacer"></div>
 
-		<!-- about section -->
+		<!-- about -->
 		<section class="about">
 			<div class="about-container">
 				<h2>ABOUT US</h2>
-
 				<div id="cooks" class="pic">
 				</div>
-
 				<div class="text">
 					<h3>Good Food, Great People</h3>
 					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
@@ -85,11 +91,9 @@
 		<section class="contact">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
-
 				<div class="info">
 					<div class="address">
 						<h3>Address</h3>
-
 						<address>
 							<p>100 Main St</p>
 							<p>San Francisco, CA</p>
@@ -98,7 +102,6 @@
 
 					<div class="hours">
 						<h3>Hours</h3>
-
 						<div>
 							<p>Sunday to Thursday:</p>
 							<p>12:00p - 12:00a</p>
@@ -109,7 +112,6 @@
 
 					<div class="contacts">
 						<h3>Contacts</h3>
-
 						<div>
 							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
 							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
@@ -124,16 +126,20 @@
 
 		<!-- footer -->
 		<footer>
-			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<nav>
+				<p>Join our mailing list!</p>
+				<input type="email" placeholder="Email Address"/>
+				<button>Sign Up</button>
+				<a href="menu.html">Menu</a>
+				<a href="reserve.html">Reservations</a>
+				<a href="offers.html">Special Offers</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+			<div>
+				<!-- copyright -->
+				<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</div>
 		</footer>
 	</div>
 </body>
